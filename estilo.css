@@ -1,0 +1,193 @@
+body{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-image: url(./img/rickandmorty.jpg);
+  
+
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinha os cartões ao centro */
+}
+
+.card {
+    width: 300px; 
+    margin: 0 10px 20px; /*Margens entre os cartões*/
+    border-radius: 10px;
+    /* background-color: black; */
+    /* color: aliceblue; */
+    border-top: 0;
+    border-left: 0;
+    border-color: black;
+    border-style: solid;
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.card:hover{
+    
+    background-color: rgb(4, 245, 89);
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); 
+    }
+} 
+
+/* @media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px); /* Reduz a largura do card para 100% menos 20 pixels de margem */
+    /* }
+} */ 
+
+img{
+    padding: 15px;
+    width: 200px;
+    margin-left: 40px;
+    border-radius: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+
+/* @media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); 
+    }
+
+    img {
+        width: 100px; /* Reduz o tamanho da imagem para telas menores */
+        /* margin-left: auto; /* Centraliza a imagem horizontalmente */
+        /* margin-right: auto;
+        display: block;
+    } */ 
+
+    /* h2 {
+        text-align: center; /* Centraliza o texto */
+        /* font-size: 10px; */
+    /* }
+}  */ 
+
+/* @media (max-width: 480px) {
+    .card {
+        
+        width: calc(30% - 20px); /* Reduz a largura do card para 100% menos 20 pixels de margem */
+    /* } */
+
+    /* img {
+        width: 100px; /* Reduz ainda mais o tamanho da imagem para telas muito pequenas */
+    /* } */
+/* } */ 
+
+
+
+
+
+
+
+
+
+#geral{
+/*     
+    width: 1300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 1950px; */
+    
+}
+
+#imagemFundo{
+    /* background-color: aliceblue; */
+    border-radius: 10px;
+    
+}
+
+#locomocao-container{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+#numero-pagina{
+    margin-inline: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 25px;
+    
+}
+
+#anterior-pagina{
+    cursor: pointer;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+
+#proxima-pagina{
+    border-radius: 6px;
+    padding: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+    
+}
+
+#img-container{
+background-color: rgb(255, 255, 255);
+border-radius: 10px
+}
+
+#logo{
+   width: 750px; 
+}
+
+#bt-fecar{
+    cursor: pointer;
+    /* background-color: rgb(253, 29, 29); */
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 469px;
+    font-size: 25px;
+    border: 2px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+}
+
+#bt-fecar:hover{
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+}
+
+#modal{
+    width: 500px;
+    height: 300px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#alinhar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#card-modal{
+    
+  
+    display: flex;
+    
+}
